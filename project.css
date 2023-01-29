@@ -120,18 +120,22 @@ figcaption {
 }
 
 .step p {
+  position: relative;
   text-align: center;
   padding: 1rem;
   font-size: 1.5rem;
   margin: 0 3rem;
+  z-index: 1;
 }
 
 #eddie-aaron {
-  width: 456px;
+  width: 40vw;
   position: relative;
   right: 0px;
   bottom: 0px;
+  z-index: 0;
 }
+
 
 /* Footer styles */
 

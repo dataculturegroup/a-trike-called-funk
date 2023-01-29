@@ -57,7 +57,6 @@ Project.scrolling = {
     // console.log(`Switched to step ${stepInfo.index}`);
     // TODO: add an `is-active` class on the step that we switched to (and remove from all others)
     // and switch the background image to match the step content
-    Project.scrolling.setBackdropImage(stepInfo.index);
     if (stepInfo.index === 0) {
       console.log('true')
       const eddieAaronImg = document.getElementById("eddie-aaron");
