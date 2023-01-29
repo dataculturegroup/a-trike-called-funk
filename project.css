@@ -127,8 +127,10 @@ figcaption {
 }
 
 #eddie-aaron {
-  width: 302px;
-  height: 312.5px;
+  width: 456px;
+  position: relative;
+  right: 0px;
+  bottom: 0px;
 }
 
 /* Footer styles */
