@@ -15,6 +15,10 @@ Project.scrolling = {
 
   // a list of the backdrop images, ordered so they match the `step` elements on the page
   backdrops: [
+    { 'src': 'https://cdn.glitch.global/dd709b70-f2e7-4af6-9e0f-38c888cd8b68/first_background.png?v=1675029304000',
+      'credit': '',
+      'type': 'image',
+    },
     { 'src': 'https://cdn.glitch.global/60a947a3-a0d4-473b-a51a-ef7120e2f598/webcoding.jpeg?v=1673897542123',
       'credit': 'https://zapier.com/blog/learn-html-css/',
       'type': 'image',
