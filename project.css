@@ -15,16 +15,18 @@
     255,
     255
   ); /** this is a color in red, green, and blue values (each from 0 to 255) **/
-  --color-text: rgb(0, 0, 0);
+  --color-text: #ffffff;
   --color-primary: #0044cc;
   --color-secondary: #0088cc;
-  --font-family-body: "Garamond", serif;
+  --font-family-body: "Playfair Display", serif;
+  --font-weight-body: bold;
   --font-family-header: "Gill Sans", sans-serif;
 }
 
 /* Basic page style resets, building on the ones boostrap does */
 body {
   font-family: var(--font-family-body);
+  font-weight: var(--font-weight-body);
   color: var(--color-text);
   background-color: var(--color-bg);
 }
@@ -108,7 +110,6 @@ figcaption {
 }
 
 .step {
-  filter: drop-shadow(0px 0px 8px var(--color-text));
 }
 
 .step:last-child {
@@ -116,11 +117,9 @@ figcaption {
 }
 
 .step p {
-  border-radius: 0.5rem;
   text-align: center;
   padding: 1rem;
   font-size: 1.5rem;
-  background-color: var(--color-bg);
   margin: 0 3rem;
 }
 
