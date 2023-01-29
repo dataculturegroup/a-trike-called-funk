@@ -49,25 +49,7 @@ Project.scrolling = {
       .onStepEnter(Project.scrolling.handleStepEnter)
       .onStepExit(Project.scrolling.handleStepExit);
     // setup the default view to be the right size and include first step
-    Project.scrolling.handleResize();
-    Project.scrolling.setBackdropImage(0); // remember: 0 means the first item in an array
-  },
-
-  // call this to switch the background image
-  setBackdropImage: (index) => {
-    // grab the info for thi step
-    // if this step's type is image
-    //.  then swap the image
-    // if this step's type if video
-    //.  hide the image
-    //.  set the video src
-    //.  show the video
-    //.  play the video
-    const image = Project.scrolling.figure.getElementsByTagName("img")[0];
-    image.src = Project.scrolling.backdrops[index].src;
-    //image.classList.add = 'fade-in';
-    // TODO: make this caption text a link
-    document.getElementsByTagName("figcaption")[0].innerHTML = Project.scrolling.backdrops[index].credit;
+    Project.scrolling.handleResize(); // remember: 0 means the first item in an array
   },
 
   // called by scrollama when the step is being entered
