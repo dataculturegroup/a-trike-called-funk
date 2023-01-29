@@ -16,7 +16,7 @@
     255
   ); /** this is a color in red, green, and blue values (each from 0 to 255) **/
   --color-text: #ffffff;
-  --color-primary: #0044cc;
+  --color-primary: #FF7F50;
   --color-secondary: #0088cc;
   --font-family-body: "Playfair Display", serif;
   --font-weight-body: bold;
@@ -110,6 +110,9 @@ figcaption {
 }
 
 .step {
+  height: 100vh;
+  margin: 0;
+  overflow: hidden;
 }
 
 .step:last-child {
@@ -121,6 +124,11 @@ figcaption {
   padding: 1rem;
   font-size: 1.5rem;
   margin: 0 3rem;
+}
+
+#eddie-aaron {
+  width: 302px;
+  height: 312.5px;
 }
 
 /* Footer styles */
