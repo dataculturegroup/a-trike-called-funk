@@ -16,7 +16,7 @@
     255
   ); /** this is a color in red, green, and blue values (each from 0 to 255) **/
   --color-text: #ffffff;
-  --color-primary: #FF7F50;
+  --color-primary: #FF2E2E;
   --color-secondary: #0088cc;
   --font-family-body: "Playfair Display", serif;
   --font-weight-body: bold;
@@ -142,7 +142,7 @@ figcaption {
 
 footer {
   color: var(--color-bg);
-  background-color: #FF7F50;
+  background-color: #FF2E2E;
   padding: 5rem 0 1rem 0;
   text-align: center;
   font-size: 1rem;
