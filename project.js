@@ -65,6 +65,10 @@ Project.scrolling = {
       trikeVideo.style.opacity = 1;
       trikeVideo.style.position = 'fixed';
     }
+    else if(stepInfo.index === 2){
+      const nextVideo = document.getElementById("trike");
+      nextVideo.setAttribute("src", )
+    }
     else if (stepInfo.index === 3) {
       const eddieAaronImg = document.getElementById("graffiti-wkshp");
       eddieAaronImg.style.position = 'fixed';
