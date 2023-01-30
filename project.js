@@ -72,12 +72,12 @@ Project.scrolling = {
     else if (stepInfo.index === 3) {
       const eddieAaronImg = document.getElementById("graffiti-wkshp");
       eddieAaronImg.style.position = 'fixed';
-    }
-    else if (stepInfo.index === 3) {
       const graffitiWkshp = document.getElementById("graffiti-wkshp");
       const drummers = document.getElementById("drummers");
       graffitiWkshp.style.position = 'fixed';
       drummers.style.position = 'fixed';
+      const danceWkshp = document.getElementById("dance-wkshp");
+      danceWkshp.style.opacity = 1;
     }
   },
 

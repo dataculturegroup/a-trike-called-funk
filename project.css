@@ -146,7 +146,7 @@ figcaption {
 }
 
 #graffiti-wkshp {
-  width: 35vw;
+  width: 25vw;
   height: auto;
   left: 0px;
   bottom: 0px;
@@ -155,12 +155,21 @@ figcaption {
 }
 
 #drummers {
-  width: 30vw;
+  width: 25vw;
   height: auto;
   left: 250px;
   bottom: 100px;
   position: absolute;
   z-index: 0;
+}
+
+#dance-wkshp{
+  width: 25vw;
+  height: auto;
+  position: center;
+  z-index: 0;
+  opacity: 0;
+  transition: opacity 3s;
 }
 
 #trike{
