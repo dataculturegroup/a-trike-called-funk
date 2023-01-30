@@ -201,7 +201,7 @@ figcaption {
   width: 25vw;
   height: auto;
   opacity: 0;
-  transition: opacity 3s;
+  transition: opacity 1s;
 }
 /* Footer styles */
 

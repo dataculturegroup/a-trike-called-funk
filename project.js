@@ -67,7 +67,6 @@ Project.scrolling = {
     }
     else if(stepInfo.index === 2){
       const nextVideo = document.getElementById("trike");
-      nextVideo.setAttribute("src", )
     }
     else if (stepInfo.index === 3) {
       const eddieAaronImg = document.getElementById("graffiti-wkshp");
@@ -80,7 +79,8 @@ Project.scrolling = {
       danceWkshp.style.opacity = 1;
     }
     else if(stepInfo.index === 5) {
-      const kidsVideo = document.getElementyById("kidsVideo");
+      console.log("step 5");
+      const kidsVideo = document.getElementById("kidsVideo");
       kidsVideo.style.opacity = 1;
     }
   },
