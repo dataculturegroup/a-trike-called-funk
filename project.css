@@ -174,7 +174,20 @@ figcaption {
   transition: opacity 1s;
 
 }
-
+#instagram{
+  width: 10vw;
+  height: auto;
+  left: 10vw;
+  bottom: 50vw;
+  position: absolute;
+}
+#tiktok{
+  width: 10vw;
+  height: auto;
+  left: 40vw;
+  bottom: 50vs;
+  position: absolute;
+}
 /* Footer styles */
 
 footer {
