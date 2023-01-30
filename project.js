@@ -79,6 +79,10 @@ Project.scrolling = {
       const danceWkshp = document.getElementById("dance-wkshp");
       danceWkshp.style.opacity = 1;
     }
+    else if(stepInfo.index === 5) {
+      const kidsVideo = document.getElementyById("kidsVideo");
+      kidsVideo.style.opacity = 1;
+    }
   },
 
   // called by scrollama when moving out of a step
@@ -86,6 +90,10 @@ Project.scrolling = {
     if(stepInfo.index == 1){
       const trikeVideo = document.getElementById("trike");
       trikeVideo.style.opacity = 0;
+    }
+    else if(stepInfo.index == 3){
+      const danceWkshp = document.getElementById("dance-wkshp");
+      danceWkshp.style.opacity = 0;
     }
     // we don't make any transitions when a step scrolls out of view
   },
