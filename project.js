@@ -87,6 +87,8 @@ Project.scrolling = {
       kidsVideo.style.opacity = 1;
     }
     else if(stepInfo.index === 6) {
+      const dancers = document.getElementById("dancers");
+      dancers.style.position = 'fixed';
       const dancers2 = document.getElementById("dancers-2");
       dancers2.style.position = 'fixed';
     }
