@@ -60,6 +60,8 @@ Project.scrolling = {
     if (stepInfo.index === 1) {
       const eddieAaronImg = document.getElementById("eddie-aaron");
       eddieAaronImg.style.position = 'fixed';
+      const trikeVideo = document.getElementById("trike");
+      trikeVideo.style.opacity = 1;
     }
     else if (stepInfo.index === 3) {
       const eddieAaronImg = document.getElementById("graffiti-wkshp");
