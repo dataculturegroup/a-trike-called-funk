@@ -85,6 +85,10 @@ Project.scrolling = {
       const kidsVideo = document.getElementById("kidsVideo");
       kidsVideo.style.opacity = 1;
     }
+    else if(stepInfo.index === 6) {
+      const dancers2 = document.getElementById("dancers-2");
+      dancers2.style.position = 'fixed';
+    }
   },
 
   // called by scrollama when moving out of a step
