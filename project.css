@@ -163,10 +163,19 @@ figcaption {
   z-index: 0;
 }
 
+#michelle-wu {
+  height: 500px;
+  width: auto;
+  left: 0px;
+  bottom: 0px;
+  position: absolute;
+  z-index: 0;
+}
+
 #dance-wkshp{
   width: 25vw;
   height: auto;
-  position: center;
+  position: relative;
   z-index: 1;
   opacity: 0;
   transition: opacity 3s;
