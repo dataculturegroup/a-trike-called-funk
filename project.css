@@ -139,8 +139,8 @@ figcaption {
 #eddie-aaron {
   width: 40vw;
   height: auto;
-  right: 0px;
-  bottom: 0px;
+  right: 0vw;
+  bottom: 0vh;
   position: absolute;
   z-index: 0;
 }
@@ -148,8 +148,8 @@ figcaption {
 #graffiti-wkshp {
   width: 25vw;
   height: auto;
-  left: 0px;
-  bottom: 0px;
+  left: 1vw;
+  bottom: 0vh;
   position: absolute;
   z-index: 0;
 }
@@ -157,22 +157,22 @@ figcaption {
 #drummers {
   width: 25vw;
   height: auto;
-  left: 250px;
-  bottom: 100px;
+  left: 20vw;
+  bottom: 15vh;
   position: absolute;
   z-index: 0;
 }
 
 #michelle-wu {
-  height: 500px;
-  width: auto;
-  left: 0px;
-  bottom: 0px;
+  width: 12vw;
+  height: auto;
+  left: 0vw;
+  bottom: 0vh;
   position: absolute;
   z-index: 0;
 }
 
-#dance-wkshp{
+#dance-wkshp {
   width: 25vw;
   height: auto;
   position: relative;
@@ -181,7 +181,7 @@ figcaption {
   transition: opacity 3s;
 }
 
-#trike{
+#trike {
   width: 50vw;
   height: auto;
   position: absolute;
@@ -193,35 +193,39 @@ figcaption {
 
 }
 
-#dancers-2{
+#dancers-2 {
   width: 35vw;
   height: auto;
-  left: 400px;
-  bottom: 10px;
+  left: 30vw;
+  bottom: 3vh;
   position: absolute;
   z-index: 0;
 }
 
 
-#instagram{
+#instagram {
   width: 10vw;
   height: auto;
   left: 10vw;
   bottom: 50vw;
   position: absolute;
 }
-#tiktok{
+
+#tiktok {
   width: 10vw;
   height: auto;
   left: 40vw;
   bottom: 50vw;
   position: absolute;
 }
-#kidsVideo{
+
+#kids-video {
   width: 25vw;
   height: auto;
   opacity: 0;
   transition: opacity 1s;
+  position: relative;
+  z-index: 1;
 }
 /* Footer styles */
 

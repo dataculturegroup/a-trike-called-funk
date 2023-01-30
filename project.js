@@ -82,7 +82,7 @@ Project.scrolling = {
     }
     else if(stepInfo.index === 5) {
       console.log("step 5");
-      const kidsVideo = document.getElementById("kidsVideo");
+      const kidsVideo = document.getElementById("kids-video");
       kidsVideo.style.opacity = 1;
     }
     else if(stepInfo.index === 6) {
