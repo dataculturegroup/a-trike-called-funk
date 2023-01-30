@@ -58,13 +58,13 @@ Project.scrolling = {
     // TODO: add an `is-active` class on the step that we switched to (and remove from all others)
     // and switch the background image to match the step content
     if (stepInfo.index === 0) {
+      const trikeVideo = document.getElementById("trike-video");
+      trikeVideo.style.opacity = 1;
+    }
+    else if (stepInfo.index === 1) {
       console.log("Step " + stepInfo.index);
       const eddieAaronImg = document.getElementById("eddie-aaron");
       eddieAaronImg.style.position = 'fixed';
-    }
-    else if (stepInfo.index === 1) {
-      const trikeVideo = document.getElementById("trike-video");
-      trikeVideo.style.opacity = 1;
     }
     else if (stepInfo.index === 2){
       const nextVideo = document.getElementById("trike");

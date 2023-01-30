@@ -139,7 +139,7 @@ figcaption {
 #eddie-aaron {
   width: 40vw;
   height: auto;
-  right: 0vw;
+  right: 2vw;
   bottom: 0vh;
   position: absolute;
   z-index: 0;
@@ -192,13 +192,12 @@ figcaption {
   z-index: 1;
   opacity: 0;
   transition: opacity 1s;
-
 }
 
 #dancers {
   width: 45vw;
   height: auto;
-  right: 10vw;
+  right: 0vw;
   bottom: 0vh;
   position: absolute;
   z-index: 0;
@@ -207,11 +206,21 @@ figcaption {
 #dancers-2 {
   width: 40vw;
   height: auto;
-  left: 20vw;
-  bottom: -1vh;
+  left: 22vw;
+  bottom: 0vh;
   position: absolute;
   z-index: 0;
 }
+
+#everyone {
+  width: 45vw;
+  height: auto;
+  position: relative;
+  display: block;
+  margin: auto;
+  z-index: 1;
+}
+
 
 
 #instagram {
