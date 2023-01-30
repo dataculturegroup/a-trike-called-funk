@@ -74,8 +74,8 @@ header small {
 
 
 /* main body, scrollytelling part styles */
-.backdrop-img {
-  background-size: cover;
+#backdrop-img {
+  width: 100%;
 }
 
 article {
