@@ -112,6 +112,8 @@ figcaption {
   height: 100vh;
   overflow: hidden;
   position: relative;
+  display: flex;
+  flex-direction: column;
 }
 
 .step:last-child {
@@ -128,10 +130,6 @@ figcaption {
   z-index: 1;
 }
 
-.step-wrapper {
-  display: flex;
-  flex-direction: 
-}
 
 #eddie-aaron {
   width: 40vw;
