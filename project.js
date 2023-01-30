@@ -60,7 +60,7 @@ Project.scrolling = {
     if (stepInfo.index === 0) {
       console.log('true')
       const eddieAaronImg = document.getElementById("eddie-aaron");
-      eddieAaronImg.style.position = 'fixed';
+      //eddieAaronImg.style.position = 'fixed';
     }
   },
 
