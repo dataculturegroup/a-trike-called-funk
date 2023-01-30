@@ -64,7 +64,8 @@ header {
 }
 
 header p {
-  font-size: 1.5rem;
+  color: #5A5A5A;
+  font-size: 1.25rem;
 }
 
 header small {
@@ -73,6 +74,10 @@ header small {
 
 
 /* main body, scrollytelling part styles */
+.backdrop-img {
+  background-size: cover;
+}
+
 article {
   position: relative;
   padding: 0; /** on a wide screen don't make text boxes full-width **/
@@ -124,10 +129,10 @@ figcaption {
   text-align: center;
   padding: 1rem;
   font-size: 1.5rem;
-  margin: 0 3rem;
   max-width: 50rem;
   position: relative;
   z-index: 1;
+  margin: auto;
 }
 
 
