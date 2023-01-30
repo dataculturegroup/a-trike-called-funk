@@ -116,9 +116,12 @@ figcaption {
 }
 
 .step {
-  height: 100vh;
   overflow: hidden;
   position: relative;
+  padding: 10vh 0;
+  display: flex;
+  align-content: center;
+  flex-direction: column;
 }
 
 .step:last-child {
@@ -133,6 +136,7 @@ figcaption {
   position: relative;
   z-index: 1;
   margin: auto;
+  background-color: #98cfe0;
 }
 
 
@@ -220,7 +224,6 @@ figcaption {
   margin: auto;
   z-index: 1;
 }
-
 
 
 #instagram {
