@@ -154,6 +154,15 @@ figcaption {
   z-index: 0;
 }
 
+#drummers {
+  width: 30vw;
+  height: auto;
+  left: 250px;
+  bottom: 100px;
+  position: absolute;
+  z-index: 0;
+}
+
 #trike{
   width: 50vw;
   height: auto;

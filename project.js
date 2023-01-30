@@ -62,15 +62,26 @@ Project.scrolling = {
       eddieAaronImg.style.position = 'fixed';
       const trikeVideo = document.getElementById("trike");
       trikeVideo.style.opacity = 1;
+      trikeVideo.style.position = 'fixed';
     }
     else if (stepInfo.index === 3) {
       const eddieAaronImg = document.getElementById("graffiti-wkshp");
       eddieAaronImg.style.position = 'fixed';
     }
+    else if (stepInfo.index === 3) {
+      const graffitiWkshp = document.getElementById("graffiti-wkshp");
+      const drummers = document.getElementById("drummers");
+      //graffitiWkshp.style.position = 'fixed';
+      drummers.style.position = 'fixed';
+    }
   },
 
   // called by scrollama when moving out of a step
   handleStepExit: (stepInfo) => {
+    if(stepInfo.index == 1){
+      const trikeVideo = document.getElementById("trike");
+      trikeVideo.style.opacity = 0;
+    }
     // we don't make any transitions when a step scrolls out of view
   },
 
