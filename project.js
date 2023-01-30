@@ -57,10 +57,9 @@ Project.scrolling = {
     // console.log(`Switched to step ${stepInfo.index}`);
     // TODO: add an `is-active` class on the step that we switched to (and remove from all others)
     // and switch the background image to match the step content
-    if (stepInfo.index === 0) {
-      console.log('true')
+    if (stepInfo.index === 1) {
       const eddieAaronImg = document.getElementById("eddie-aaron");
-      eddieAaronImg.style.visibility = 'visible';
+      eddieAaronImg.style.position = 'fixed';
     }
   },
 
@@ -80,5 +79,6 @@ Project.scrolling = {
     Project.scrolling.figure.getElementsByClassName("wrapper")[0].style.height = figureHeight + "px";
     Project.scrolling.scroller.resize(); // tell scrollama to update new element dimensions
   },
+
 
 };

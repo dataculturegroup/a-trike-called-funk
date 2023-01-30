@@ -75,8 +75,7 @@ header small {
 /* main body, scrollytelling part styles */
 article {
   position: relative;
-  padding: 0;
-  max-width: 50rem; /** on a wide screen don't make text boxes full-width **/
+  padding: 0; /** on a wide screen don't make text boxes full-width **/
   margin: 0 auto;
 }
 
@@ -124,6 +123,14 @@ figcaption {
   padding: 1rem;
   font-size: 1.5rem;
   margin: 0 3rem;
+  max-width: 50rem;
+  position: relative;
+  z-index: 1;
+}
+
+.step-wrapper {
+  display: flex;
+  flex-direction: 
 }
 
 #eddie-aaron {
@@ -132,7 +139,7 @@ figcaption {
   position: absolute;
   right: 0px;
   bottom: 0px;
-  visibility: hidden;
+  z-index: 0;
 }
 
 
