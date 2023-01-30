@@ -179,14 +179,16 @@ figcaption {
   z-index: 1;
   opacity: 0;
   transition: opacity 3s;
+  display: block;
+  margin: auto;
 }
 
-#trike {
+#trike-video {
   width: 50vw;
   height: auto;
-  position: absolute;
-  left: 0px;
-  bottom: 0px;
+  position: relative;
+  display: block;
+  margin: auto;
   z-index: 1;
   opacity: 0;
   transition: opacity 1s;
@@ -226,6 +228,8 @@ figcaption {
   transition: opacity 1s;
   position: relative;
   z-index: 1;
+  display: block;
+  margin: auto;
 }
 /* Footer styles */
 
