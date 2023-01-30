@@ -139,11 +139,21 @@ figcaption {
 #eddie-aaron {
   width: 40vw;
   height: auto;
-  position: absolute;
   right: 0px;
   bottom: 0px;
+  position: absolute;
   z-index: 0;
 }
+
+#graffiti-wkshp {
+  width: 35vw;
+  height: auto;
+  left: 0px;
+  bottom: 0px;
+  position: absolute;
+  z-index: 0;
+}
+
 
 
 /* Footer styles */

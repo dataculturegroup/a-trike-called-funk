@@ -61,6 +61,10 @@ Project.scrolling = {
       const eddieAaronImg = document.getElementById("eddie-aaron");
       eddieAaronImg.style.position = 'fixed';
     }
+    else if (stepInfo.index === 3) {
+      const eddieAaronImg = document.getElementById("graffiti-wkshp");
+      eddieAaronImg.style.position = 'fixed';
+    }
   },
 
   // called by scrollama when moving out of a step
