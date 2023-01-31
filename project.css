@@ -220,6 +220,17 @@ figcaption {
   margin: auto;
 }
 
+#single-drummer {
+  width: 25vw;
+  height: auto;
+  position: relative;
+  z-index: 1;
+  opacity: 0;
+  transition: opacity 1s;
+  display: block;
+  margin: auto;
+}
+
 #trike-video {
   width: 50vw;
   height: auto;
