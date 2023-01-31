@@ -135,7 +135,9 @@ figcaption {
   max-width: 50rem;
   position: relative;
   z-index: 1;
-  margin: 0px auto;
+  margin: 5px auto;
+  background-color: #84d3e3;
+  border-radius: 25px;
 }
 
 /* social media elements */
@@ -258,6 +260,16 @@ figcaption {
   height: auto;
   opacity: 0;
   transition: opacity 1s;
+  position: relative;
+  z-index: 1;
+  display: block;
+  margin: auto;
+}
+
+/* inline images */
+#chalk {
+  width: 25vw;
+  height: auto;
   position: relative;
   z-index: 1;
   display: block;
