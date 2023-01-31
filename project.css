@@ -208,6 +208,28 @@ figcaption {
   transition: opacity 1s;
 }
 
+#kids-video {
+  width: 25vw;
+  height: auto;
+  opacity: 0;
+  transition: opacity 1s;
+  position: relative;
+  z-index: 1;
+  display: block;
+  margin: auto;
+}
+
+#aaron-dancing {
+  width: 25vw;
+  height: auto;
+  opacity: 0;
+  transition: opacity 1s;
+  position: relative;
+  z-index: 1;
+  display: block;
+  margin: auto;
+}
+
 #dancers {
   width: 45vw;
   height: auto;
@@ -278,17 +300,6 @@ figcaption {
   display: block;
   margin: auto;
   z-index: 1;
-}
-
-#kids-video {
-  width: 25vw;
-  height: auto;
-  opacity: 0;
-  transition: opacity 1s;
-  position: relative;
-  z-index: 1;
-  display: block;
-  margin: auto;
 }
 /* Footer styles */
 
