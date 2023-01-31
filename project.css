@@ -224,6 +224,50 @@ figcaption {
   z-index: 1;
 }
 
+#wedding {
+  width: 45vw;
+  height: auto;
+  position: relative;
+  display: block;
+  margin: auto;
+  z-index: 1;
+}
+
+#court {
+  width: 45vw;
+  height: auto;
+  position: relative;
+  display: block;
+  margin: auto;
+  z-index: 1;
+}
+
+#park {
+  width: 45vw;
+  height: auto;
+  position: relative;
+  display: block;
+  margin: auto;
+  z-index: 1;
+}
+
+#beach {
+  width: 45vw;
+  height: auto;
+  position: relative;
+  display: block;
+  margin: auto;
+  z-index: 1;
+}
+
+#roller-rink {
+  width: 45vw;
+  height: auto;
+  position: relative;
+  display: block;
+  margin: auto;
+  z-index: 1;
+}
 
 #instagram {
   width: 10vw;
