@@ -61,15 +61,15 @@ Project.scrolling = {
       const trikeVideo = document.getElementById("trike-video");
       trikeVideo.style.opacity = 1;
     }
-    else if (stepInfo.index === 1) {
+    else if (stepInfo.index === 2) {
       console.log("Step " + stepInfo.index);
       const eddieAaronImg = document.getElementById("eddie-aaron");
       eddieAaronImg.style.position = 'fixed';
     }
-    else if (stepInfo.index === 2){
+    else if (stepInfo.index === 3){
       const nextVideo = document.getElementById("trike");
     }
-    else if (stepInfo.index === 3) {
+    else if (stepInfo.index === 4) {
       const eddieAaronImg = document.getElementById("graffiti-wkshp");
       eddieAaronImg.style.position = 'fixed';
       const graffitiWkshp = document.getElementById("graffiti-wkshp");
@@ -79,26 +79,26 @@ Project.scrolling = {
       graffitiWkshp.style.position = 'fixed';
       drummers.style.position = 'fixed';
     }
-    else if (stepInfo.index === 4) {
+    else if (stepInfo.index === 5) {
       console.log('4')
       const singleDrummer = document.getElementById("single-drummer");
       singleDrummer.style.opacity = 1;
       console.log(singleDrummer.style.opacity)
     }
-    else if (stepInfo.index === 5) {
+    else if (stepInfo.index === 6) {
       const danceWkshp = document.getElementById("dance-wkshp");
       danceWkshp.style.opacity = 1;
     }
-    else if (stepInfo.index === 6) {
+    else if (stepInfo.index === 7) {
       const aaronDancing = document.getElementById("aaron-dancing");
       aaronDancing.style.opacity = 1;
     }
-    else if(stepInfo.index === 7) {
+    else if(stepInfo.index === 8) {
       console.log("step 5");
       const kidsVideo = document.getElementById("kids-video");
       kidsVideo.style.opacity = 1;
     }
-    else if(stepInfo.index === 8) {
+    else if(stepInfo.index === 9) {
       const dancers = document.getElementById("dancers");
       dancers.style.position = 'fixed';
       const dancers2 = document.getElementById("dancers-2");

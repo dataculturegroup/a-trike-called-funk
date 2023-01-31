@@ -18,9 +18,9 @@
   --color-text: #ffffff;
   --color-primary: #FF2E2E;
   --color-secondary: #0088cc;
-  --font-family-body: "Playfair Display", serif;
-  --font-weight-body: bold;
-  --font-family-header: "Gill Sans", sans-serif;
+  --font-family-body: "Times New Roman", serif;
+  --font-weight-body: normal;
+  --font-family-header: "Impact", sans-serif;
 }
 
 /* Basic page style resets, building on the ones boostrap does */
@@ -135,7 +135,7 @@ figcaption {
   max-width: 50rem;
   position: relative;
   z-index: 1;
-  margin: 5px auto;
+  margin: 0 auto 10px;
   background-color: #84d3e3;
   border-radius: 25px;
 }
