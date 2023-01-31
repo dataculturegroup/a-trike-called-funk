@@ -78,7 +78,6 @@ header small {
 /* main body, scrollytelling part styles */
 #backdrop-img {
   width: 100%;
-  height: 100%;
 }
 
 article {
@@ -271,8 +270,33 @@ footer a:visited {
     border-radius: 25px;
     padding: 10px;
   }
-  .step {
-    justify-content: center;
+  
+  #backdrop-img {
+    height: 100vh;
   }
-  #
+  
+  #drummers {
+    width: 35vw;
+    bottom: 5vh;
+  }
+  
+  #michelle-wu {
+    width: 20vw;
+  }
+
+  #dancers {
+    width: 55vw;
+  }
+
+  #dancers-2 {
+    width: 50vw;
+  }
+  
+  #eddie-aaron {
+    width: 50vw;
+  }
+
+  #graffiti-wkshp {
+    width: 35vw;
+  }
 }
