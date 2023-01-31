@@ -139,8 +139,15 @@ figcaption {
 }
 
 .social-container {
-  display: block;
+  display: flex;
   margin: auto;
+  justify-content: space-evenly;
+  width: 50rem;
+}
+
+.social-icon {
+  width: 50px;
+  height: auto;
 }
 
 #eddie-aaron {
@@ -271,19 +278,6 @@ figcaption {
   display: block;
   margin: auto;
   z-index: 1;
-}
-
-#instagram {
-  width: 50px;
-  height: auto;
-}
-
-#tiktok {
-  width: 10vw;
-  height: auto;
-  left: 40vw;
-  bottom: 50vw;
-  position: absolute;
 }
 
 #kids-video {
