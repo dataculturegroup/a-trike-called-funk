@@ -135,9 +135,13 @@ figcaption {
   max-width: 50rem;
   position: relative;
   z-index: 1;
-  margin: auto;
+  margin: 0px auto;
 }
 
+.social-container {
+  display: block;
+  margin: auto;
+}
 
 #eddie-aaron {
   width: 40vw;
@@ -270,11 +274,8 @@ figcaption {
 }
 
 #instagram {
-  width: 10vw;
+  width: 50px;
   height: auto;
-  left: 10vw;
-  bottom: 50vw;
-  position: absolute;
 }
 
 #tiktok {
