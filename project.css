@@ -138,18 +138,22 @@ figcaption {
   margin: 0px auto;
 }
 
+/* social media elements */
+
 .social-container {
   display: flex;
   margin: auto;
   justify-content: space-evenly;
-  width: 50rem;
+  max-width: 50rem;
 }
 
 .social-icon {
   width: 50px;
   height: auto;
+  margin: 1rem;
 }
 
+/* background images */
 #eddie-aaron {
   width: 40vw;
   height: auto;
@@ -186,8 +190,25 @@ figcaption {
   z-index: 0;
 }
 
-/* videos */
+#dancers {
+  width: 45vw;
+  height: auto;
+  right: 0vw;
+  bottom: 0vh;
+  position: absolute;
+  z-index: 0;
+}
 
+#dancers-2 {
+  width: 40vw;
+  height: auto;
+  left: 22vw;
+  bottom: 0vh;
+  position: absolute;
+  z-index: 0;
+}
+
+/* videos */
 #dance-wkshp {
   width: 25vw;
   height: auto;
@@ -230,24 +251,6 @@ figcaption {
   z-index: 1;
   display: block;
   margin: auto;
-}
-
-#dancers {
-  width: 45vw;
-  height: auto;
-  right: 0vw;
-  bottom: 0vh;
-  position: absolute;
-  z-index: 0;
-}
-
-#dancers-2 {
-  width: 40vw;
-  height: auto;
-  left: 22vw;
-  bottom: 0vh;
-  position: absolute;
-  z-index: 0;
 }
 
 #everyone {
