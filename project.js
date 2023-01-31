@@ -117,8 +117,6 @@ Project.scrolling = {
       danceWkshp.style.opacity = 0;
     }
     */
-    
-    if(stepInfo.index == )
   },
 
   // called to get content to be the right size to fit the device
