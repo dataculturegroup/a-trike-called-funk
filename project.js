@@ -81,6 +81,10 @@ Project.scrolling = {
       const danceWkshp = document.getElementById("dance-wkshp");
       danceWkshp.style.opacity = 1;
     }
+    else if (stepInfo.index === 4) {
+      const aaronDancing = document.getElementById("aaron-dancing");
+      aaronDancing.style.opacity = 1;
+    }
     else if(stepInfo.index === 5) {
       console.log("step 5");
       const kidsVideo = document.getElementById("kids-video");
@@ -96,6 +100,7 @@ Project.scrolling = {
 
   // called by scrollama when moving out of a step
   handleStepExit: (stepInfo) => {
+    /*
     if(stepInfo.index == 1){
       const trikeVideo = document.getElementById("trike");
       trikeVideo.style.opacity = 0;
@@ -104,7 +109,7 @@ Project.scrolling = {
       const danceWkshp = document.getElementById("dance-wkshp");
       danceWkshp.style.opacity = 0;
     }
-    // we don't make any transitions when a step scrolls out of view
+    */
   },
 
   // called to get content to be the right size to fit the device
