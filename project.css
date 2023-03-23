@@ -131,7 +131,7 @@ figure img {
   display: flex;
   align-content: center;
   flex-direction: column;
-  overflow: hidden;
+  overflow: visible;
 }
 
 .step img.inline-img {
