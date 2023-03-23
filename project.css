@@ -10,17 +10,35 @@
  * one place, so you don't mistype them
  */
 :root {
-  --color-bg: rgb(
-    255,
-    255,
-    255
-  ); /** this is a color in red, green, and blue values (each from 0 to 255) **/
+  --color-bg: rgb(255, 255, 255);
   --color-text: #ffffff;
   --color-primary: #FF2E2E;
-  --color-secondary: #0088cc;
-  --font-family-body: "Times New Roman", serif;
+  --color-secondary: rgb(243, 238, 238);
+  --color-dark: rgb(37, 42, 51);
+  --font-family-body: "Lexend Deca", Verdana, Geneva, Tahoma, sans-serif;
   --font-weight-body: normal;
-  --font-family-header: "Impact", sans-serif;
+  --font-family-header: "Anderson Grotesk", sans-serif;
+  --font-weight-header: 900;
+  --margin-small: 1.5rem;
+  --margin-medium: 3rem;
+  --margin-big: 6rem;
+}
+
+/* fonts */
+@font-face {
+  font-family: 'Lexend Deca';
+  font-style: normal;
+  font-weight: 400;
+  src: url(https://fonts.gstatic.com/s/lexenddeca/v21/K2FifZFYk-dHSE0UPPuwQ7CrD94i-NCKm-U48M1wqxnFirZPl3v-.woff) format('woff');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+
+@font-face {
+  font-family: 'Anderson Grotesk';
+  src: url('./fonts/AndersonGrotesk-Black.otf') format('opentype');
+  font-weight: 900;
+  font-style: normal;
+  font-display: swap;
 }
 
 /* Basic page style resets, building on the ones boostrap does */
@@ -32,24 +50,26 @@ body {
 }
 
 h1 {
-  color: var(--color-primary);
   font-family: var(--font-family-header);
-  font-size: 3.5rem;
-  font-weight: bold;
+  font-weight: var(--font-weight-header);
+  color: var(--color-primary);
+  font-size: 3rem;
+  margin: var(--margin-medium) 0;
 }
 
 h2 {
   font-family: var(--font-family-header);
+  font-weight: var(--font-weight-header);
   font-size: 2rem;
   margin-top: 1rem;
 }
 
 h3 {
-  font-family: "Gill Sans", sans-serif;
+  font-family: var(--font-family-header);
+  font-weight: var(--font-weight-header);
   margin-top: 1rem;
   font-variant: all-small-caps;
   font-size: 2.5rem;
-  font-weight: bold;
 }
 
 a {
@@ -67,7 +87,7 @@ header {
 }
 
 header p {
-  color: #5A5A5A;
+  color: var(--color-dark);
   font-size: 1.25rem;
 }
 
@@ -92,7 +112,7 @@ figure {
   width: 100%; /** make image fill the whole screen **/
   height: 100%;
   margin: 0;
-  background-color: #471705;
+  background-color: var(--color-secondary);
 }
 
 figure div.wrapper {
@@ -114,6 +134,11 @@ figure img {
   overflow: hidden;
 }
 
+.step img.inline-img {
+  border: 1px solid var(--color-dark);
+  box-shadow: 2px 2px 10px 1px rgba(0, 0, 0, 0.5);
+}
+
 .step:last-child {
   margin-bottom: 0;
 }
@@ -126,18 +151,13 @@ figure img {
   position: relative;
   z-index: 1;
   margin: 0 auto 10px;
-  background-color: #84d3e3;
+  background-color: var(--color-dark);
   border-radius: 25px;
+  border: 1px solid var(--color-dark);
+  box-shadow: 2px 2px 10px 1px rgba(0, 0, 0, 0.5);
 }
 
 /* social media elements */
-
-.social-container {
-  display: flex;
-  margin: auto;
-  justify-content: space-evenly;
-  max-width: 50rem;
-}
 
 .social-icon {
   width: 50px;
@@ -146,9 +166,23 @@ figure img {
 }
 
 /* background images */
+@keyframes fadeOut {
+  0% { opacity: 1; }
+  100% { opacity: 0; }
+}
+@keyframes fadeIn {
+  0% { opacity: 0; }
+  100% { opacity: 1; }
+}
+
+.fade-in-image { animation: fadeIn 1s; }
+.fade-out-image { animation: fadeOut 1s; }
+
 .background-imgs {
-  position: absolute;
+  position: fixed;
   z-index: 0;
+  opacity: 0;
+  animation-fill-mode: forwards;
 }
 
 #eddie-aaron {
@@ -194,13 +228,15 @@ figure img {
 }
 
 /* videos */
-video {
+.step video {
+  border: 1px solid var(--color-dark);
+  box-shadow: 2px 2px 10px 1px rgba(0, 0, 0, 0.5);
   height: auto;
   position: relative;
   display: block;
   margin: auto;
+  margin-top: var(--margin-medium);
   z-index: 1;
-  opacity: 0;
   transition: opacity 1s;
 }
 

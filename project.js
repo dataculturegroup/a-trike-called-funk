@@ -43,7 +43,7 @@ Project.scrolling = {
     Project.scrolling.scroller
       .setup({
         step: "#scrolly article .step",
-        offset: 0.9,
+        offset: 0.1,
         debug: false
       })
       .onStepEnter(Project.scrolling.handleStepEnter)
@@ -54,69 +54,43 @@ Project.scrolling = {
 
   // called by scrollama when the step is being entered
   handleStepEnter: (stepInfo) => { // stepInfo = { element, directihandle, index }
-    // console.log(`Switched to step ${stepInfo.index}`);
-    // TODO: add an `is-active` class on the step that we switched to (and remove from all others)
-    // and switch the background image to match the step content
+    console.log(`Switched to step ${stepInfo.index}`);
+    // fade in any nested background images
+    const backgroundImage = stepInfo.element.getAttribute('data-background');
+    if (backgroundImage) {
+      console.log(backgroundImage);
+      const backgroundImgNode = document.querySelector("#"+backgroundImage);
+      console.log(backgroundImgNode);
+      backgroundImgNode.classList.add('fade-in-image');
+    }
     if (stepInfo.index === 0) {
-      const trikeVideo = document.getElementById("trike-video");
-      trikeVideo.style.opacity = 1;
     }
     else if (stepInfo.index === 1) {
-      const eddieAaronImg = document.getElementById("eddie-aaron");
-      eddieAaronImg.style.position = 'fixed';
     }
     else if (stepInfo.index === 2){
-      const nextVideo = document.getElementById("trike");
     }
     else if (stepInfo.index === 3) {
-      const eddieAaronImg = document.getElementById("graffiti-wkshp");
-      eddieAaronImg.style.position = 'fixed';
-      const graffitiWkshp = document.getElementById("graffiti-wkshp");
-      const drummers = document.getElementById("drummers");
-      const michelleWu = document.getElementById("michelle-wu");
-      michelleWu.style.position = 'fixed';
-      graffitiWkshp.style.position = 'fixed';
-      drummers.style.position = 'fixed';
     }
     else if (stepInfo.index === 4) {
-      console.log('4')
-      const singleDrummer = document.getElementById("single-drummer");
-      singleDrummer.style.opacity = 1;
-      console.log(singleDrummer.style.opacity)
     }
     else if (stepInfo.index === 5) {
-      const danceWkshp = document.getElementById("dance-wkshp");
-      danceWkshp.style.opacity = 1;
     }
     else if (stepInfo.index === 6) {
-      const aaronDancing = document.getElementById("aaron-dancing");
-      aaronDancing.style.opacity = 1;
     }
     else if(stepInfo.index === 7) {
-      console.log("step 5");
-      const kidsVideo = document.getElementById("kids-video");
-      kidsVideo.style.opacity = 1;
     }
     else if(stepInfo.index === 8) {
-      const dancers = document.getElementById("dancers");
-      dancers.style.position = 'fixed';
-      const dancers2 = document.getElementById("dancers-2");
-      dancers2.style.position = 'fixed';
+    }
+    else if(stepInfo.index === 9) {
+    }
+    else if(stepInfo.index === 10) {
+    }
+    else if(stepInfo.index === 11) {
     }
   },
 
   // called by scrollama when moving out of a step
   handleStepExit: (stepInfo) => {
-    /*
-    if(stepInfo.index == 1){
-      const trikeVideo = document.getElementById("trike");
-      trikeVideo.style.opacity = 0;
-    }
-    else if(stepInfo.index == 3){
-      const danceWkshp = document.getElementById("dance-wkshp");
-      danceWkshp.style.opacity = 0;
-    }
-    */
   },
 
   // called to get content to be the right size to fit the device
